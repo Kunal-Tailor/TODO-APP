@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="st1.css">
+</head>
+<body >
+    <header class="flex justify-between items-center p-4 ">
+        <h1  class="text-4xl font-bold">Welcome to the Todo App</h1>
+        <div class="flex space-x-2">
+            <a href="login.html" style="background-color: #c9d6ff" class="text-black px-4 py-2 rounded">Login</a>
+            <a href="register.html" style="background-color: #c9d6ff" class="text-black px-4 py-2 rounded">Register</a>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div class="container mx-auto px-4 py-10">
+        <video class="video-background" autoplay loop muted>
+            <source src="first.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br><br>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l-4-4m0 0l4-4m-4 4h16" />
+                    </svg>
+                    <h2 class="text-lg font-semibold">Register Your Account</h2>
+                </div>
+                <hr>
+                <p>If you’re a new user, click on the Register button to create your account. Just fill in your details, and you're all set to get started!</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H4m0 0l4 4m-4-4l4-4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold"> Log In to Your Dashboard</h2>
+                </div>
+                <hr>
+                <p>Already registered? Simply log in with your credentials to access your personal dashboard, where all your tasks will be stored securely.</p>
+               
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold">Add Your Tasks</h2>
+                </div>
+                <hr>
+                <p>After logging in, create new tasks by entering task details such as the title, description, and due date. Organize your tasks easily with categories or priorities.</p>
+
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold"> Set Reminders</h2>
+                </div>
+                <hr>
+                <p>Don’t worry about missing deadlines! Set email reminders to receive notifications 2 hours before your tasks are due. Stay ahead of your schedule!</p>
+
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold">Manage and Update Tasks</h2>
+                </div>
+                <hr>
+                <p>Keep your to-do list up-to-date. Edit tasks, mark them as complete, or delete tasks as needed. Your to-do list is fully customizable based on your changing priorities.
+                </p>
+
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold"> Track Your Progress</h2>
+                </div>
+                <hr>
+                <p>View all your tasks in one place and track your progress effortlessly. Stay organized and keep your productivity high with a simple, easy-to-use interface</p>
+
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md feature">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <h2 class="text-lg font-semibold"> Log Out and Come Back Anytime</h2>
+                </div>
+                <hr>
+                <p>Your tasks will be saved securely. You can log out and come back anytime to manage your tasks whenever you need to</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
